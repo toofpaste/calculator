@@ -47,4 +47,11 @@ var farh = function(num1){
 };
 var num1 = parseFloat(prompt("What is the temperature in Celcius"));
 var result = farh(num1);
-alert(result);
+alert(result + " Degress F");
+
+var cook = function(num1){
+  return num1*3.7854;
+};
+var num1 = parseFloat(prompt("What is the number of gallons?"));
+var result = cook(num1);
+alert(result + " liters");
