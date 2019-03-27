@@ -63,9 +63,12 @@ $(function(){
   $("#gal").click(function(){
     choice = 10;
   });
-  $("#col").click(function(){
-    choice = 11;
+  $("button#green").click(function() {
+    $("body").removeClass();
+    $("body").addClass("green-background");
   });
+
+
 
 
 
@@ -106,7 +109,10 @@ $(function(){
 }else if(choice === 10){
   var gall = cook(num1, num2);
   $("#outGal").text(gall).show();
-}else if(choice === 11)
+}else if(choice === 11){
+  alert("asfas");
+
+}else choice = 0;
 
 
 
