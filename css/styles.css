@@ -2,7 +2,22 @@ html{
   85%;
 }
 
-
+.btn {
+  font-size: 3rem;
+  display: flex;
+  float: left;
+  width: auto;
+  border: 2px solid black;
+  padding: .3rem;
+}
+.equal {
+  font-size: 3rem;
+  display: flex;
+  float: left;
+  width: auto;
+  padding: .3rem;
+  margin-left: 2rem;
+}
 
 #output{
   font-size: 3rem;
@@ -11,5 +26,87 @@ html{
   width: auto;
   border: 2px solid black;
   padding: .3rem;
+  margin-left: 2rem;
+  display: none;
+}
+#outSub{
+  font-size: 3rem;
+  display: flex;
+  float: left;
+  width: auto;
+  border: 2px solid black;
+  padding: .3rem;
+  margin-left: 2rem;
+  display: none;
+}
+#outMul{
+  font-size: 3rem;
+  display: flex;
+  float: left;
+  width: auto;
+  border: 2px solid black;
+  padding: .3rem;
+  margin-left: 2rem;
+  display: none;
+}
+
+#outDvi{
+  font-size: 3rem;
+  display: flex;
+  float: left;
+  width: auto;
+  border: 2px solid black;
+  padding: .3rem;
+  margin-left: 2rem;
+  display: none;
+}
+#outBmi{
+  font-size: 3rem;
+  display: flex;
+  float: left;
+  width: auto;
+  border: 2px solid black;
+  padding: .3rem;
+  margin-left: 2rem;
+  display: none;
+}
+#weight{
+  display: none;
+}
+#h{
+  display: none;
+}
+
+#outTemp{
+  font-size: 3rem;
+  display: flex;
+  float: left;
+  width: auto;
+  border: 2px solid black;
+  padding: .3rem;
+  margin-left: 2rem;
+  display: none;
+}
+#outGal{
+  font-size: 3rem;
+  display: flex;
+  float: left;
+  width: auto;
+  border: 2px solid black;
+  padding: .3rem;
+  margin-left: 2rem;
+  display: none;
+}
+#f {
+  display: none;
+}
+
+#add2 {
+  visibility: visible;
+}
+#add3{
+  visibility: visible;
+}
+#g{
   display: none;
 }

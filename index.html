@@ -11,26 +11,84 @@
     <title>Calculator</title>
   </head>
   <body>
+
     <div class="container">
       <h1>Calculator</h1>
       <form id = "add">
         <div class="form-group">
           <label for="add1">1st Number</label>
+          <p id="weight">Weight in lbs</p>
+          <p id="f">Degrees Celsius</p>
+          <p id = "g">Enter Gallons</p>
           <input id = "add1" class="form-control" type="text" >
         </div>
         <div class="form-group">
-          <label for="add2">2nd Number</label>
-          <input id = "add2" class="form-control" type="text" >
+          <label for="add2" id="add3">2nd Number</label>
+          <p id="h">Height in inches</p>
+          <input id = "add2" id = "crap" class="form-control" type="text" >
         </div>
-        <button type="submit" class="btn">Add?</button>
+
+
+        <button type="submit" class="btn" id="plus"  name="operator">Add</button>
+        <p class = "equal"> = </p>
+        <div id="output">
+
+        </div>
+        <br><br><br>
+          <button type="submit" class="btn" id="sub" name = "operator">Subtract</button>
+          <p class = "equal"> = </p>
+          <div id="outSub">
+
+          </div>
+
+        <br><br><br>
+          <button type="submit" class="btn" id="mul" name = "operator">Multiply</button>
+          <p class = "equal"> = </p>
+          <div id="outMul">
+
+          </div>
+
+        <br><br><br>
+          <button type="submit" class="btn" id="dvi" name = "operator">Divide</button>
+          <p class = "equal"> = </p>
+          <div id="outDvi">
+
+          </div>
+
+        <br><br><br>
+          <button type="submit" class="btn" id="load" name = "operator">LOAD</button>
+
+          <button type="submit" class="btn" id="bmi1" name = "operator">Body Mass  Index</button>
+          <p class = "equal"> = </p>
+          <div id="outBmi">
+
+          </div>
+
+        <br><br><br>
+          <button type="submit" class="btn" id="load2" name = "operator">LOAD</button>
+
+          <button type="submit" class="btn" id="temp" name = "operator">Degrees C to F</button>
+          <p class = "equal"> = </p>
+          <div id="outTemp">
+
+          </div>
+
+        <br><br><br>
+          <button type="submit" class="btn" id="load3" name = "operator">LOAD</button>
+
+          <button type="submit" class="btn" id="gal" name = "operator">Gallons to Liters</button>
+          <p class = "equal"> = </p>
+          <div id="outGal">
+
+          </div>
+
+
 
       </form>
-      <div id="output">
+
+
 
       </div>
-
-
-    </div>
 
   </body>
 </html>
