@@ -63,6 +63,9 @@ $(function(){
   $("#gal").click(function(){
     choice = 10;
   });
+  $("#col").click(function(){
+    choice = 11;
+  });
 
 
 
@@ -103,7 +106,7 @@ $(function(){
 }else if(choice === 10){
   var gall = cook(num1, num2);
   $("#outGal").text(gall).show();
-}else choice = 0;
+}else if(choice === 11)
 
 
 
