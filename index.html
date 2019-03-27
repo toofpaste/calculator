@@ -3,9 +3,34 @@
   <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
     <title>Calculator</title>
   </head>
   <body>
-    <script src="js/scripts.js"></script>
+    <div class="container">
+      <h1>Calculator</h1>
+      <form id = "add">
+        <div class="form-group">
+          <label for="add1">1st Number</label>
+          <input id = "add1" class="form-control" type="text" >
+        </div>
+        <div class="form-group">
+          <label for="add2">2nd Number</label>
+          <input id = "add2" class="form-control" type="text" >
+        </div>
+        <button type="submit" class="btn">Add?</button>
+
+      </form>
+      <div id="output">
+
+      </div>
+
+
+    </div>
+
   </body>
 </html>

@@ -1,0 +1,15 @@
+html{
+  85%;
+}
+
+
+
+#output{
+  font-size: 3rem;
+  display: flex;
+  float: left;
+  width: auto;
+  border: 2px solid black;
+  padding: .3rem;
+  display: none;
+}
