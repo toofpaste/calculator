@@ -1,6 +1,11 @@
 html{
   85%;
 }
+body{
+  background-color: #ff9999;
+  opacity: .8;
+  color: #00ffcc;
+}
 
 .btn {
   font-size: 3rem;
@@ -9,6 +14,8 @@ html{
   width: auto;
   border: 2px solid black;
   padding: .3rem;
+  background-color: ##00ffcc;
+  color: white;
 }
 .equal {
   font-size: 3rem;
@@ -17,6 +24,8 @@ html{
   width: auto;
   padding: .3rem;
   margin-left: 2rem;
+  color: #99ff99;
+  opacity: 1;
 }
 
 #output{
@@ -27,6 +36,7 @@ html{
   border: 2px solid black;
   padding: .3rem;
   margin-left: 2rem;
+  background-color: #666666;
   display: none;
 }
 #outSub{
@@ -37,6 +47,7 @@ html{
   border: 2px solid black;
   padding: .3rem;
   margin-left: 2rem;
+  background-color: #666666;
   display: none;
 }
 #outMul{
@@ -47,6 +58,7 @@ html{
   border: 2px solid black;
   padding: .3rem;
   margin-left: 2rem;
+  background-color: #666666;
   display: none;
 }
 
@@ -58,6 +70,7 @@ html{
   border: 2px solid black;
   padding: .3rem;
   margin-left: 2rem;
+  background-color: #666666;
   display: none;
 }
 #outBmi{
@@ -68,6 +81,7 @@ html{
   border: 2px solid black;
   padding: .3rem;
   margin-left: 2rem;
+  background-color: #666666;
   display: none;
 }
 #weight{
@@ -85,6 +99,7 @@ html{
   border: 2px solid black;
   padding: .3rem;
   margin-left: 2rem;
+  background-color: #666666;
   display: none;
 }
 #outGal{
@@ -95,6 +110,7 @@ html{
   border: 2px solid black;
   padding: .3rem;
   margin-left: 2rem;
+  background-color: #666666;
   display: none;
 }
 #f {
@@ -109,4 +125,11 @@ html{
 }
 #g{
   display: none;
+}
+
+#color {
+  height: 300px;
+}
+.move{
+  font-size: 45px;
 }

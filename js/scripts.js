@@ -28,6 +28,7 @@ var cook = function(num1){
 
 var choice = 0;
 $(function(){
+  var favoriteColor = $("#color").val();
 
   $("#plus").click(function(){
     choice = 1;
